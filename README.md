@@ -2,7 +2,8 @@
 A Toy Heuristic for Erdős–Straus (Might Be Interesting, Might Be Nonsense)
 
 ## WARNING
-  ### THIS MAY BE AI‑GENERATED NONSENSE. USE WITH CAUTION. 
+  ### THIS MAY BE AI‑GENERATED NONSENSE. USE WITH CAUTION.
+  ### THIS IS AI WORK IN PRE-ALPHA STATE!!!!!!!!!!!!!!!!!!!!
 
 ## SHORT
   This is an experimental heuristic I built while playing around with ideas.
