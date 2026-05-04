@@ -1,0 +1,32 @@
+//
+// pseudocode
+//
+
+function find_es_solution(n, offset_limit, divisor_limit):
+    a_start = floor(n / 4) + 1
+
+    for da from 0 to offset_limit - 1:
+        a = a_start + da
+        k = 4 * a - n
+
+        if k <= 0:
+            continue
+
+        target = n * a
+
+        for d from 1 to divisor_limit:
+            if target mod d != 0:
+                continue
+
+            b = (target + d) / k
+            if b is not integer:
+                continue
+
+            c = (target * b) / d
+            if c is not integer:
+                continue
+
+            if 4 * a * b * c == n * (b * c + a * c + a * b):
+                return (a, b, c)
+
+    return no solution found
